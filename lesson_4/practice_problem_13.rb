@@ -1,0 +1,10 @@
+ages = { "Herman" => 32, "Lily" => 30, "Grandpa" => 402, "Eddie" => 10 }
+hash = {}
+
+  ages.each do |name, age|
+    if age < 100 
+      hash[name] = age
+    end
+  end
+
+puts hash
